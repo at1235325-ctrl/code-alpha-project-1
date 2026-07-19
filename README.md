@@ -16,3 +16,6 @@ Image-Gallery/
 │   └── ...
 └── README.md
 
+🎯 Project Objective
+
+The objective of this project is to create a visually appealing and interactive image gallery that allows users to browse images efficiently while demonstrating core frontend development concepts.
