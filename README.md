@@ -16,8 +16,3 @@ Image-Gallery/
 │   └── ...
 └── README.md
 
-👨‍💻 Author
-
-Aditya Tripathi
-B.Tech CSE (Artificial Intelligence)
-CodeAlpha Frontend Development Intern
