@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CodeAlpha Image Gallery</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>Image Gallery</h1>
+
+<div class="buttons">
+
+<button class="active" data-filter="all">All</button>
+<button data-filter="nature">Nature</button>
+<button data-filter="city">City</button>
+<button data-filter="animals">Animals</button>
+<button data-filter="tech">Technology</button>
+
+</div>
+
+
+<div class="gallery">
+
+<div class="image nature">
+<img src="https://picsum.photos/id/1018/600/400">
+</div>
+
+<div class="image city">
+<img src="https://picsum.photos/id/1011/600/400">
+</div>
+
+<div class="image animals">
+<img src="https://picsum.photos/id/1025/600/400">
+</div>
+
+<div class="image tech">
+<img src="https://picsum.photos/id/180/600/400">
+</div>
+
+<div class="image nature">
+<img src="https://picsum.photos/id/1043/600/400">
+</div>
+
+<div class="image city">
+<img src="https://picsum.photos/id/1031/600/400">
+</div>
+
+<div class="image animals">
+<img src="https://picsum.photos/id/237/600/400">
+</div>
+
+<div class="image tech">
+<img src="https://picsum.photos/id/0/600/400">
+</div>
+
+</div>
+
+
+<div class="lightbox">
+
+<span class="close">&times;</span>
+
+<button id="prev">&#10094;</button>
+
+<img id="lightbox-img">
+
+<button id="next">&#10095;</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
